@@ -1,10 +1,9 @@
 name: Demo Testing
 on: push
 jobs: 
-  print-hello-world
+  print-hello-world:
     runs-on: ubuntu-latest
     steps:
       - name: print hello world
-        run: |
-        echo "Hello world"
+        run: echo "Hello world"
   
