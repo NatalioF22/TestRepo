@@ -4,7 +4,7 @@ jobs:
   print-hello-world:
     runs-on: ubuntu-latest
     steps:
-      - name: set up my frist step
+      - name: set up my first step
       - run: echo "hello world"
   
   
