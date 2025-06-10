@@ -1,0 +1,10 @@
+name: print hello world
+on: push
+jobs:
+  print-hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: set up my frist step
+      - run: echo "hello world"
+  
+  
