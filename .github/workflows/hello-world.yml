@@ -1,10 +1,9 @@
-name: print hello world
+name: hello-world
 on: push
 jobs:
-  print-hello-world:
+  first-job:
     runs-on: ubuntu-latest
     steps:
-    - name: set up my first step
-      run: echo "hello world"
-  
-  
+      - name: Checlout the repo code
+        uses: actions/checkout@v4
+      - run: echo "Hello world"
